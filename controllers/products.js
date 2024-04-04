@@ -12,6 +12,7 @@ const getAllProducts = async (req, res) => {
     if (featured) {
         queryObject.featured = featured;
     }
+   
     if (price) {
         queryObject.price = price;
     }
@@ -40,14 +41,13 @@ const getAllProducts = async (req, res) => {
 
     console.log(queryObject);
 
-    const data = await apiData;
-
-    res.status(200).json({ data, nbHits: data.length });
+    const Products = await apiData;
+    res.status(200).json({ Products, nbHits: Products.length });
 };
 
 const getAllProductsTesting = async (req, res) => {
-    const data = await Product.find(req.query)
-    res.status(200).json({ data })
+    const Products = await Product.find(req.query)
+    res.status(200).json({ Products })
 
 };
 
