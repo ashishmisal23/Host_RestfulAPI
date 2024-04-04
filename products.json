@@ -1,0 +1,68 @@
+[
+    {
+        "name": "iphone",
+        "price": "154",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "iphone-15",
+        "price": "250",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "watch",
+        "price": "584",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "earphone",
+        "price": "99",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "watch",
+        "price": "958",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "watch10",
+        "price": "205",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "neckband",
+        "price": "185",
+        "featured": false,
+        "company": "mi"
+    },
+    {
+        "name": "samsung Note 5",
+        "price": "154",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "watch",
+        "price": "458",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "watch",
+        "price": "205",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "neckband25",
+        "price": "385",
+        "featured": false,
+        "company": "samsung"
+    }
+]
