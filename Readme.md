@@ -1,6 +1,6 @@
 ### Host RestfulAPI
-```markdown
 
+```markdown
 Host RestfulAPI is a Node.js application that serves as a RESTful API for managing products. It allows users to retrieve products based on various query parameters such as company, name, featured status, price, and more.
 
 ## Installation
