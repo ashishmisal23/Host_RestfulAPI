@@ -12,7 +12,7 @@ const getAllProducts = async (req, res) => {
     if (featured) {
         queryObject.featured = featured;
     }
-   
+
     if (price) {
         queryObject.price = price;
     }
@@ -29,7 +29,6 @@ const getAllProducts = async (req, res) => {
     }
 
     if (select) {
-        // let selectFix = select.replace(",", " ");
         let selectFix = select.split(",").join(" ");
         apiData = await apiData.select(selectFix);
     }
